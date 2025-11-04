@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wedding-website/static/css/main.f7144741.css",
+    "main.js": "/wedding-website/static/js/main.88bec27d.js",
+    "index.html": "/wedding-website/index.html",
+    "main.f7144741.css.map": "/wedding-website/static/css/main.f7144741.css.map",
+    "main.88bec27d.js.map": "/wedding-website/static/js/main.88bec27d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7144741.css",
+    "static/js/main.88bec27d.js"
+  ]
+}
