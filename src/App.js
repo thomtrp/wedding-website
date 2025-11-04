@@ -168,7 +168,7 @@ export default function WeddingWebsite() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="relative min-h-screen flex items-center justify-center bg-cover bg-center" style={{backgroundImage: "url('/images/lagona-rouge.jpg')"}}>
+      <section id="home" className="relative min-h-screen flex items-center justify-center bg-cover bg-center" style={{backgroundImage: `url('${process.env.PUBLIC_URL}/images/lagona-rouge.jpg')`}}>
         <div className="absolute inset-0 bg-black bg-opacity-30"></div>
         <div className="text-center z-10 px-4 py-20">
           <CiHeart className={`w-16 h-16 ${colors.text.hero} mx-auto mb-6 animate-pulse drop-shadow-lg`} />
@@ -209,7 +209,7 @@ export default function WeddingWebsite() {
           {/* Colonne droite - Image */}
           <div className="rounded-lg overflow-hidden shadow-lg h-full">
             <img 
-              src="/images/face-a-face.jpg" 
+              src={`${process.env.PUBLIC_URL}/images/face-a-face.jpg`}
               alt="Léa et Thomas à Come" 
               className="w-full h-full object-cover"
             />
@@ -225,7 +225,7 @@ export default function WeddingWebsite() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Ceremony */}
             <div className={`${colors.background.card} rounded-lg overflow-hidden shadow-lg`}>
-              <img src="/images/eglise-senechas-site.png" alt="Eglise de Senechas" className="w-full h-80 object-cover" />
+              <img src={`${process.env.PUBLIC_URL}/images/eglise-senechas-site.png`} alt="Eglise de Senechas" className="w-full h-80 object-cover" />
               <div className="p-8">
                 <h3 className={`text-3xl font-parisienne ${colors.primary.text} mb-6 flex items-center gap-3`}>
                   <PiChurchThin className="w-6 h-6" />
@@ -253,7 +253,7 @@ export default function WeddingWebsite() {
 
             {/* Reception */}
             <div className={`${colors.background.card} rounded-lg overflow-hidden shadow-lg`}>
-              <img src="/images/mas-nouveau-site.avif" alt="Mas Nouveau" className="w-full h-80 object-cover" />
+              <img src={`${process.env.PUBLIC_URL}/images/mas-nouveau-site.avif`} alt="Mas Nouveau" className="w-full h-80 object-cover" />
               <div className="p-8">
                 <h3 className={`text-3xl font-parisienne ${colors.primary.text} mb-6 flex items-center gap-3`}>
                   <PiChampagneThin className="w-6 h-6" />
