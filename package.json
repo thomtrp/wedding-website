@@ -2,7 +2,7 @@
   "name": "wedding-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thomtrp.github.io/wedding-website",
+  "homepage": "https://mariage-leathomas.com",
   "dependencies": {
     "lucide-react": "^0.263.1",
     "react": "^18.2.0",
